@@ -55,3 +55,4 @@ for(int i=0;buf[i]!='\0';i++)
 	}
 	mq_close(mqid);
 	return 0;
+}

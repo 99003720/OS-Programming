@@ -21,7 +21,7 @@ int main()
 	}
 char string[20] = "ThiS iS a StRInG ClIent sEndS";
 int len = strlen(string);
-	ret=mq_send(mqid,str,len+1,NULL);
+	ret=mq_send(mqid,string,len+1,NULL);
 	if(ret<0)
 	{
 		perror("mq_send");
@@ -31,3 +31,4 @@ int len = strlen(string);
 
     mq_close(mqid);
 	return 0;
+}
