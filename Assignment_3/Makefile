@@ -5,4 +5,3 @@ build:
 	gcc reciever5.c -lrt -o three
 	gcc Toggle_Client.c -lrt -o four
 	gcc Toggle_server.c -lrt -o five
-	
