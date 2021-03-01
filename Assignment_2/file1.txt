@@ -1,0 +1,4 @@
+File1 is copied to file2
+Hello world
+This is the first OS programming module
+hello
